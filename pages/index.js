@@ -22,7 +22,7 @@ const Home = () => {
             <span className="text-accent"> Digital Reality</span>
           </motion.h1>
           {/* subtitles */}
-          <motion.p
+          <motion.pw
             variants={fadeIn("down", 0.4)}
             initial="hidden"
             animate="show"
@@ -35,7 +35,7 @@ const Home = () => {
             commodo id magna ipsum. Eiusmod aute elit voluptate dolore ipsum
             excepteur quis eiusmod laborum eiusmod mollit cupidatat ipsum
             voluptate.
-          </motion.p>
+          </motion.pw>
           {/* btn */}
           <div className="flex justify-center xl:hidden relative">
             <ProjectsBtn />
