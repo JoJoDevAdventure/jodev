@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import AvatarImg from "../components/Avatar";
+import ParticlesCont from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
 
 import { fadeIn } from "../variants";
@@ -56,11 +57,18 @@ const Home = () => {
         {/* bg img */}
         <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0"></div>
         {/* particles */}
-        <div>particles</div>
+        <ParticlesCont/>
         {/* avatar img */}
-        <div>
+        <motion.div
+          className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]"
+          variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          animate="show"
+          exit="hidden"
+          transition={{duration:1, ease: 'easeIn'}}
+        >
           <AvatarImg />
-        </div>
+        </motion.div>
       </div>
     </div>
   );
