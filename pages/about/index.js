@@ -87,8 +87,14 @@ const aboutData = [
   },
 ];
 
+import { useState } from "react";
+import Circles from "../../components/Circles";
+
 const About = () => {
-  return <div>About</div>;
+  const [index, setIndex] = useState(0);
+  return <div>
+    <Circles/>
+  </div>;
 };
 
 export default About;
