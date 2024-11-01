@@ -133,6 +133,13 @@ const About = () => {
   const [index, setIndex] = useState(0);
   return (
     <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
+      <Head>
+        <title>Jodev | About me</title>
+        <meta
+          name="description"
+          content="Starting at 12 with small games, my passion quickly shifted to crafting modern, visually engaging websites. This journey led me to freelancing, where each project fueled my drive to create sleek, user-focused interfaces that blend functionality with aesthetics."
+        />
+      </Head>
       <Circles />
       <motion.div
         variants={fadeIn("right", 0.2)}

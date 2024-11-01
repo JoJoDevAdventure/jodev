@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Bulb from "../../components/Bulb";
 import Circles from "../../components/Circles";
 import WorkSlider from "../../components/WorkSlider";
@@ -9,6 +10,13 @@ import { fadeIn } from "../../variants";
 const Work = () => {
   return (
     <div className="h-full bg-primary/30 py-36 flex items-center">
+          <Head>
+      <title>Jodev | My work</title>
+      <meta
+        name="description"
+        content="Each project reflects my adaptability across diverse industries and my capability to seamlessly join teams and deliver impactful solutions. From enhancing user experience to driving engagement, my work showcases high-quality design and development tailored to meet unique industry needs."
+      />
+    </Head>
       <Circles />
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8">

@@ -4,11 +4,19 @@ import ServicesSlider from "../../components/ServiceSlider";
 
 //framer motion
 import { motion } from "framer-motion";
+import Head from "next/head";
 import { fadeIn } from "../../variants";
 
 const Services = () => {
   return (
     <div className="h-full bg-primary/30 py-36 flex items-center">
+      <Head>
+        <title>Jodev | My services</title>
+        <meta
+          name="description"
+          content="Starting young and curious allowed me to build a versatile skill set as a front-end developer. My services span UI/UX design, full-stack development, and SEO, all focused on creating responsive, visually engaging, and high-performance web experiences that align with the latest trends."
+        />
+      </Head>
       <Circles />
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8">

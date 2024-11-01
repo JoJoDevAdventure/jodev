@@ -28,8 +28,6 @@ const workSlides = {
       images: [
         { title: "title5", path: "/GQ.png", link: "https://www.getquorum.com", color1: "#0F64A9", color2: "#F37F1E" },
         { title: "title6", path: "/JPN.png", link: "https://www.jpn-ent.net", color1: "#213F6D", color2: "#C95988" },
-        { title: "title7", path: "/Avakyan.png", link: "https://example.com/project7", color1: "#716F70", color2: "#E4E4E4" },
-        { title: "title8", path: "/RealOpen.png", link: "https://example.com/project8", color1: "#302E81", color2: "#9A8AC1" },
       ],
     },
   ],

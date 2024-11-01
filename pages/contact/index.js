@@ -5,6 +5,13 @@ import { fadeIn } from "../../variants";
 const Contact = () => {
   return (
     <div className="h-full bg-primary/30">
+      <Head>
+        <title>Jodev | Testimonials</title>
+        <meta
+          name="description"
+          content="Contact."
+        />
+      </Head>
       <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full">
         {/* text & form*/}
         <div className="flex flex-col w-full mex-w-[700px]">
@@ -19,10 +26,13 @@ const Contact = () => {
             Let&apos;s <span className="text-accent"> connect</span>!
           </motion.h2>
           {/* form */}
-          <motion.form variants={fadeIn("up", 0.4)}
-              initial="hidden"
-              animate="show"
-              exit="hidden" className="flex-1 flex flex-col gap-6 w-full mx-auto">
+          <motion.form
+            variants={fadeIn("up", 0.4)}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+            className="flex-1 flex flex-col gap-6 w-full mx-auto"
+          >
             {/* input group */}
             <div className="flex gap-x-6 w-full">
               <input type="text" placeholder="name" className="input" />

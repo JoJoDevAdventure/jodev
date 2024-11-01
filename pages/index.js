@@ -5,9 +5,20 @@ import ProjectsBtn from "../components/ProjectsBtn";
 
 import { fadeIn } from "../variants";
 
+import Head from "next/head";
+
 const Home = () => {
   return (
     <div className="bg-primary/60 h-full">
+      {/* Page title, description, and favicon */}
+      <Head>
+        <title>Jodev | Home</title>
+        <meta
+          name="description"
+          content="As a dedicated front-end / Full-Stack developer, I transform ideas into engaging user experiences with cutting-edge, high-performance solutions."
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       {/* text*/}
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
         <div className="text-center flex flex-col justify-content justify-center xl:pt-40 xl:text-left h-full container mx-auto">
@@ -30,14 +41,14 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:nb-16"
           >
-            As a dedicated and innovative front-end / Full-Stack developer, I thrive on
-            solving complex problems and transforming ideas into seamless,
-            engaging user experiences. My passion for technology drives me to
-            stay ahead of the latest trends, continuously expanding my skill set
-            to deliver cutting-edge, high-performance solutions. With a growth
-            mindset at the core of my approach, I’m committed to refining my
-            craft and embracing new challenges to push the boundaries of what’s
-            possible in the digital space.
+            As a dedicated and innovative front-end / Full-Stack developer, I
+            thrive on solving complex problems and transforming ideas into
+            seamless, engaging user experiences. My passion for technology
+            drives me to stay ahead of the latest trends, continuously expanding
+            my skill set to deliver cutting-edge, high-performance solutions.
+            With a growth mindset at the core of my approach, I’m committed to
+            refining my craft and embracing new challenges to push the
+            boundaries of what’s possible in the digital space.
           </motion.pw>
           {/* btn */}
           <div className="flex justify-center xl:hidden relative">

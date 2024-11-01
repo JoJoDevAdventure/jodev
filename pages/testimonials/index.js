@@ -1,10 +1,18 @@
 import { motion } from "framer-motion";
+import Head from "next/head";
 import TestimonialsSlider from "../../components/TestimonialSlider";
 import { fadeIn } from "../../variants";
 
 const Testimonials = () => {
   return (
-    <div className="h-full bg-primary/30 py-32 text-center">
+    <div className="h-full bg-primary/30 py-32 text-center">      {/* Page title, description, and favicon */}
+    <Head>
+      <title>Jodev | Testimonials</title>
+      <meta
+        name="description"
+        content="Joseph exceeded expectations by quickly delivering exactly what I needed with added tweaks that made the images even better. The process was seamless, with fast and comfortable communication throughout. An outstanding experience!"
+      />
+    </Head>
       <div className="container mx-auto h-full flex flex-col justify-center">
         <motion.h2
           variants={fadeIn("down", 0.4)}
