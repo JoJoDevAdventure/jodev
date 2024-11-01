@@ -33,20 +33,11 @@ const aboutData = [
       },
       {
         title: "UI/UX Design",
-        icons: [<FaFigma key="FaFigma" />, <SiAdobexd key="SiAdobexd" />, <SiAdobephotoshop key="SiAdobephotoshop" />],
-      },
-    ],
-  },
-  {
-    title: "awards",
-    info: [
-      {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
-      },
-      {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
+        icons: [
+          <FaFigma key="FaFigma" />,
+          <SiAdobexd key="SiAdobexd" />,
+          <SiAdobephotoshop key="SiAdobephotoshop" />,
+        ],
       },
     ],
   },
@@ -54,16 +45,20 @@ const aboutData = [
     title: "experience",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
+        title: "ReplicAIDE - Full-Stack Developer",
+        stage: "2022 - 2024",
       },
       {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
+        title: "Venn Telecom - Front-End Developer",
+        stage: "2021 - 2022",
       },
       {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
+        title: "Blonk Group. - Front-End Developer",
+        stage: "2020 - 2021",
+      },
+      {
+        title: "Founder - Jodev Agency",
+        stage: "2019 - Present",
       },
     ],
   },
@@ -71,16 +66,57 @@ const aboutData = [
     title: "credentials",
     info: [
       {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
+        title: "Bachelor Degree Computer Science - ISITCOM Tunisia",
+        stage: "2022",
       },
       {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
+        title: "High School Computer Science and Maths - Ibn Sina",
+        stage: "2019",
+      },
+    ],
+  },
+  {
+    title: "Why Me?",
+    info: [
+      {
+        title: "Analytical Thinker",
+        stage: "Problem Solver",
       },
       {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
+        title: "Collaborative Spirit",
+        stage: "Team Player",
+      },
+      {
+        title: "Attention to Detail",
+        stage: "Pixel Perfect Design",
+      },
+      {
+        title: "Clear Communicator",
+        stage: "High Communication Skills",
+      },
+      {
+        title: "Adaptable",
+        stage: "Quick Learner",
+      },
+      {
+        title: "Customer-Centric",
+        stage: "User Focused Design",
+      },
+      {
+        title: "Time Management",
+        stage: "Efficient Workflow",
+      },
+      {
+        title: "Creative Mindset",
+        stage: "Innovative Solutions",
+      },
+      {
+        title: "Growth-Oriented",
+        stage: "Continuous Learning",
+      },
+      {
+        title: "Strategic Thinker",
+        stage: "Proactive Problem Solving",
       },
     ],
   },
@@ -127,11 +163,10 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            Ipsum magna ipsum velit adipisicing laborum. Occaecat consequat
-            officia do velit consectetur tempor exercitation dolor duis
-            incididunt deserunt occaecat ipsum. Et in voluptate pariatur minim
-            ut et nostrud cupidatat do aliquip. Dolor exercitation elit
-            cupidatat dolor aute.
+            Starting at 12 with small games, my passion quickly shifted to
+            crafting modern, visually engaging websites. This journey led me to
+            freelancing, where each project fueled my drive to create sleek,
+            user-focused interfaces that blend functionality with aesthetics.
           </motion.p>
           {/* Counters */}
           <div className="hidden md:flex md:max-w-xl xl:max-w-none mx-auto xl:mx-0 mb-8">
@@ -145,7 +180,7 @@ const About = () => {
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  +<CountUp start={0} end={7} duration={5} />
+                  +<CountUp start={0} end={5} duration={8} />
                 </div>
                 <div className="text-cs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Years of experience
@@ -155,7 +190,7 @@ const About = () => {
               {/* clients */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  +<CountUp start={0} end={50} duration={5} />
+                  +<CountUp start={0} end={45} duration={8} />
                 </div>
                 <div className="text-cs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Satisfied clients
@@ -165,7 +200,7 @@ const About = () => {
               {/* projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  +<CountUp start={0} end={100} duration={5} />
+                  +<CountUp start={0} end={89} duration={8} />
                 </div>
                 <div className="text-cs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Finished projects

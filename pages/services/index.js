@@ -31,10 +31,11 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Anim eu cupidatat reprehenderit do deserunt aute non ad sint enim.
-              Excepteur reprehenderit ea ex ut adipisicing nisi irure incididunt
-              exercitation nisi eiusmod exercitation nulla et. Ullamco elit non
-              quis et minim esse.
+              Starting young and curious allowed me to build a versatile skill
+              set as a front-end developer. My services span UI/UX design,
+              full-stack development, and SEO, all focused on creating
+              responsive, visually engaging, and high-performance web
+              experiences that align with the latest trends.{" "}
             </motion.p>
           </div>
           <motion.div

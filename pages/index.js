@@ -30,12 +30,14 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:nb-16"
           >
-            Magna veniam mollit voluptate irure dolor duis et sunt Lorem labore
-            ut reprehenderit deserunt minim. Enim adipisicing et minim eu
-            voluptate consectetur velit excepteur in nisi ex cupidatat do. Nulla
-            commodo id magna ipsum. Eiusmod aute elit voluptate dolore ipsum
-            excepteur quis eiusmod laborum eiusmod mollit cupidatat ipsum
-            voluptate.
+            As a dedicated and innovative front-end / Full-Stack developer, I thrive on
+            solving complex problems and transforming ideas into seamless,
+            engaging user experiences. My passion for technology drives me to
+            stay ahead of the latest trends, continuously expanding my skill set
+            to deliver cutting-edge, high-performance solutions. With a growth
+            mindset at the core of my approach, I’m committed to refining my
+            craft and embracing new challenges to push the boundaries of what’s
+            possible in the digital space.
           </motion.pw>
           {/* btn */}
           <div className="flex justify-center xl:hidden relative">
@@ -57,15 +59,15 @@ const Home = () => {
         {/* bg img */}
         <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0"></div>
         {/* particles */}
-        <ParticlesCont/>
+        <ParticlesCont />
         {/* avatar img */}
         <motion.div
-          className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]"
+          className="w-full h-full max-w-[737px] max-h-[1078px] absolute -bottom-12 lg:bottom-12 lg:right-[8%]"
           variants={fadeIn("up", 0.2)}
           initial="hidden"
           animate="show"
           exit="hidden"
-          transition={{duration:1, ease: 'easeIn'}}
+          transition={{ duration: 1, ease: "easeIn" }}
         >
           <AvatarImg />
         </motion.div>

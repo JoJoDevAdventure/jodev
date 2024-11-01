@@ -8,32 +8,31 @@ import {
   RxRocket,
 } from "react-icons/rx";
 
-// data
 const serviceData = [
   {
+    icon: <RxDesktop />,
+    title: "Full-Stack Development",
+    description: "Building robust, scalable solutions from front-end interfaces to back-end functionalities.",
+  },
+  {
     icon: <RxCrop />,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "UI/UX Design",
+    description: "Crafting intuitive, user-centered designs that enhance user experience and visual appeal.",
   },
   {
     icon: <RxPencil2 />,
-    title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    icon: <RxDesktop />,
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Graphic Design",
+    description: "Creating compelling visuals that communicate your brand's message with clarity and creativity.",
   },
   {
     icon: <RxReader />,
     title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Delivering engaging, SEO-friendly content that connects with audiences and drives conversions.",
   },
   {
     icon: <RxRocket />,
-    title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "SEO Optimization",
+    description: "Enhancing website visibility and driving traffic with effective, data-driven SEO strategies.",
   },
 ];
 
@@ -72,7 +71,7 @@ const ServiceSlider = () => {
       {serviceData.map((item, index) => {
         return (
           <SwiperSlide key={index}>
-            <div className="bg-[rgba(65,47,123,0.15)] h-max rounded-lg px-6 py-8 flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer
+            <div className="bg-[rgba(65,47,123,0.15)] h-full rounded-lg px-6 py-8 flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer
             hover:bg-[rgba(89,65,169,0.25)] transition-all duration-500">
               {/* icon */}
               <div className="text-4xl text-accent mb-4">{item.icon}</div>

@@ -31,10 +31,7 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Anim eu cupidatat reprehenderit do deserunt aute non ad sint enim.
-              Excepteur reprehenderit ea ex ut adipisicing nisi irure incididunt
-              exercitation nisi eiusmod exercitation nulla et. Ullamco elit non
-              quis et minim esse.
+              Each project reflects my adaptability across diverse industries and my capability to seamlessly join teams and deliver impactful solutions. From enhancing user experience to driving engagement, my work showcases high-quality design and development tailored to meet unique industry needs.
             </motion.p>
           </div>
           <motion.div
