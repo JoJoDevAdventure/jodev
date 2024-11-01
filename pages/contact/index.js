@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Head from "next/head";
 import { BsArrowRight } from "react-icons/bs";
 import { fadeIn } from "../../variants";
 

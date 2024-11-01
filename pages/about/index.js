@@ -1,4 +1,5 @@
 // icons
+import Head from "next/head";
 import {
   FaCss3,
   FaFigma,
@@ -13,7 +14,6 @@ import {
   SiFramer,
   SiNextdotjs,
 } from "react-icons/si";
-
 // data
 const aboutData = [
   {
